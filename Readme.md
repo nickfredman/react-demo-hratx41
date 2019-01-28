@@ -1,10 +1,10 @@
-#Welcome! I used to be a happy app, now I'm incomplete#
+Welcome! I used to be a happy app, now I'm incomplete
 
-##This is a sample starter you can use to create whatever project you'd like
-##However, here's a recommendation:
+This is a sample starter you can use to create whatever project you'd like
+However, here's a recommendation:
 
-###Make a todo app, that stores your todos in a mysql database
-###Here are the steps you'd need to follow to make this happen:
+Make a todo app, that stores your todos in a mysql database
+Here are the steps you'd need to follow to make this happen:
 
 1. Grab todos from json.placeholder api and store them in the client's state to start (check out axios)
 2. Setup a way to add more todos to state and create the todo functionality
