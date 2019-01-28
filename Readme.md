@@ -1,4 +1,4 @@
-#Welcome! I used to be a happy app, now I'm incomplete
+#Welcome! I used to be a happy app, now I'm incomplete#
 
 ##This is a sample starter you can use to create whatever project you'd like
 ##However, here's a recommendation:
