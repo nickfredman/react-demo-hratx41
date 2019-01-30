@@ -15,4 +15,4 @@ app.get("/api", (req, res) => {
   res.send("Hi there");
 });
 
-app.listen(3000, () => "Now listening on port 3000!");
+app.listen(3000, () => console.log("Now listening on port 3000!"));
