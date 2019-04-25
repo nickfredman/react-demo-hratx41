@@ -20,10 +20,18 @@ class App extends React.Component {
 
   handleClick(e) {
     console.log(e.target.id);
-    const newState = !todos[e.target.id].completed;
-    const newState = {}
+    const index = e.target.id;
 
-    this.setState({todos[e.target.id].completed: newState })
+    // 1. Make a shallow copy of the todos
+    let todos = [...this.state.todos];
+    // 2. Make a shallow copy of the todo you want to mutate
+    let todo = { ...todos[index - 1] };
+    // 3. Replace the property you're interested in
+    todo.completed = !todo.completed;
+    // 4. Put it back into our array. we *are* mutating the array here, but that's why we made a copy first
+    todos[index - 1] = todo;
+    // 5. Set the state to our new copy
+    this.setState({ todos });
   }
 
   render() {
